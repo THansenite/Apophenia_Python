@@ -1,0 +1,123 @@
+GameSheetID
+
+Date: 			<span id="game_date">
+Time: 			<span id="game_time">
+HomeTeam: 		<td class="teamName" id="score_home_team_name">
+AwayTeam: 		<h1 id="away_team_name">
+Officials: 		<span id="game_refs">
+
+HomeGoalsP1
+HomeGoalsP2
+HomeGoalsP3
+HomeGoalsOT - ?
+HomeGoalsSO - ?
+HomeScore
+
+AwayGoalsP1
+AwayGoalsP2
+AwayGoalsP3
+HomeGoalsOT - ?
+HomeGoalsSO - ?
+AwayScore
+
+HomeShotsP1
+HomeShotsP2
+HomeShotsP3
+HomeShotsOT - ?
+HomeShotsSO - ?
+HomeShotsTotal
+
+AwayShotsP1
+AwayShotsP2
+AwayShotsP3
+AwayShotsOT - ?
+AwayShotsSO - ?
+AwayShotsTotal
+
+HomePowerPlays
+HomePowerPlayGoals
+HomePIM
+AwayPowerPlays
+AwayPowerPlayGoals
+AwayPIM
+
+** PeriodSummaries
+(For each line item in summary...)
+Period
+TimeIntoPeriod (How do I want to record this?)
+Team
+Event (goal, penalty)
+
+If goal:
+	- Scorer
+	- Assist1
+	- Assist2
+	- Status (even, pp, pk)
+	- ScoreAfterGoal
+	
+If penalty:
+	- Offender
+	- ServedBy
+	- Call (hooking, slashing, etc.)
+	- Type (minor, major, bench, ejection)
+	- Duration
+	
+** Players
+(For each player in home or away)
+Team
+JerseyNumber
+Name
+Goals
+Assists
+PenaltyMinutes
+GameWinningGoal
+
+** Goalies
+(All goalies, including subs, are shown in list.  Be sure to limit to active)
+Team
+JerseyNumber
+MinutesPlayed
+ShotsAgainst
+Saves
+Decision
+
+HomeCoaches:			<tbody id="home_team_coaches"
+AwayCoaches:			<tbody id="away_team_coaches"
+
+* Once imported, run checks to verify game scores
+*	- Throw flags for any values that don't equal
+
+Home Score
+	- HomeScore
+	- HomeGoalsP1 +  HomeGoalsP2 +  HomeGoalsP3 +  HomeGoalsOT +  HomeGoalsSO
+	- Goalie: AwayShotsTotal - AwaySaves
+	- Sum of home player Goals
+	- Count of home Goal events in summary
+ 
+ Away Score
+	- AwayScore
+	- AwayGoalsP1 +  AwayGoalsP2 +  AwayGoalsP3 +  AwayGoalsOT +  AwayGoalsSO
+	- Goalie: HomeShotsTotal - HomeSaves
+	- Sum of Away player Goals
+	- Count of away Goal events in summary
+
+Home Shots
+	- HomeShotsTotal
+	- HomeShotsP1 + HomeShotsP2 + HomeShotsP3 + HomeShotsOT + HomeShotsSO
+	- Away Goalie ShotsAgainst
+	- Sum of Home player Shots
+
+Away Shots
+	- AwayShotsTotal
+	- AwayShotsP1 + AwayShotsP2 + AwayShotsP3 + AwayShotsOT + AwayShotsSO
+	- Home Goalie ShotsAgainst
+	- Sum of Away player Shots
+ 
+Power Play Goals
+	- PowerPlayGoals
+	- Sum of summary goals with powerplay flag
+
+Penalty Minutes
+	- PIM under Power Play section
+	- Sum of PIM in Player section
+	- Sum of PIM in Summary section
