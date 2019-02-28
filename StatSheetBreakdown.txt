@@ -1,45 +1,47 @@
 GameSheetID
 
-Date: 			<span id="game_date">
-Time: 			<span id="game_time">
-HomeTeam: 		<td class="teamName" id="score_home_team_name">
-AwayTeam: 		<h1 id="away_team_name">
-Officials: 		<span id="game_refs">
+Date: 				//*[@id="game_date"]
+Time: 				//*[@id="game_time"]
+HomeTeam: 			//*[@id="home_team_name"]
+AwayTeam: 			//*[@id="away_team_name"]
+Officials: 			//*[@id="game_refs"]
+HomeScore			//*[@id="home_team_score"]
+AwayScore			//*[@id="away_team_score"]
 
-HomeGoalsP1
-HomeGoalsP2
-HomeGoalsP3
+HomeGoalsP1	        //*[@id="test"]/tr[2]/td[3]
+HomeGoalsP2         //*[@id="test"]/tr[2]/td[4]
+HomeGoalsP3			//*[@id="test"]/tr[2]/td[5]
+HomeGoalsTot		//*[@id="test"]/tr[2]/td[6]
+HomeGoalsOT - ?	(game 21868972 from last season has an OT example)
+HomeGoalsSO - ?
+
+AwayGoalsP1			//*[@id="test"]/tr[1]/td[3]
+AwayGoalsP2			//*[@id="test"]/tr[1]/td[4]
+AwayGoalsP3			//*[@id="test"]/tr[1]/td[5]
+AwayGoalsTot		//*[@id="test"]/tr[1]/td[6]
 HomeGoalsOT - ?
 HomeGoalsSO - ?
-HomeScore
 
-AwayGoalsP1
-AwayGoalsP2
-AwayGoalsP3
-HomeGoalsOT - ?
-HomeGoalsSO - ?
-AwayScore
-
-HomeShotsP1
-HomeShotsP2
-HomeShotsP3
+HomeShotsP1			/html/body/div[2]/div[1]/table/tbody/tr[2]/td[2]
+HomeShotsP2			/html/body/div[2]/div[1]/table/tbody/tr[2]/td[3]
+HomeShotsP3			/html/body/div[2]/div[1]/table/tbody/tr[2]/td[4]
+HomeShotsTotal		/html/body/div[2]/div[1]/table/tbody/tr[2]/td[5]
 HomeShotsOT - ?
 HomeShotsSO - ?
-HomeShotsTotal
 
-AwayShotsP1
-AwayShotsP2
-AwayShotsP3
+AwayShotsP1			/html/body/div[2]/div[1]/table/tbody/tr[1]/td[2]
+AwayShotsP2			/html/body/div[2]/div[1]/table/tbody/tr[1]/td[3]
+AwayShotsP3			/html/body/div[2]/div[1]/table/tbody/tr[1]/td[4]
+AwayShotsTotal		/html/body/div[2]/div[1]/table/tbody/tr[1]/td[5]
 AwayShotsOT - ?
 AwayShotsSO - ?
-AwayShotsTotal
 
 HomePowerPlays
 HomePowerPlayGoals
-HomePIM
+HomePIM				//*[@id="pp_pim_total_home_team"]
 AwayPowerPlays
 AwayPowerPlayGoals
-AwayPIM
+AwayPIM				//*[@id="pp_pim_total_away_team"]
 
 ** PeriodSummaries
 (For each line item in summary...)
@@ -81,9 +83,11 @@ ShotsAgainst
 Saves
 Decision
 
-HomeCoaches:			<tbody id="home_team_coaches"
-AwayCoaches:			<tbody id="away_team_coaches"
-
+HomeCoaches:	//*[@id="home_team_coaches"]/tr[1]/td[2]
+				//*[@id="home_team_coaches"]/tr[2]/td[2]
+AwayCoaches:	//*[@id="away_team_coaches"]/tr[1]/td[2]
+				//*[@id="away_team_coaches"]/tr[2]/td[2]
+				
 * Once imported, run checks to verify game scores
 *	- Throw flags for any values that don't equal
 
