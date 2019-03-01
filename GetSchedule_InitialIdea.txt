@@ -1,0 +1,8 @@
+var dateHrefs = pageDocument.DocumentNode.SelectNodes("//*[@id=\"panelTwo\"]/div[2]/div[1]");
+
+Console.Write(dateHrefs[0].InnerHtml);
+
+//Console.Write(pageDocument.DocumentNode.SelectSingleNode("//*[@id=\"panelTwo\"]/div[2]/div[1]").InnerHtml);
+
+// Get all:     <a href="/schedule/day/league_instance/78964/2018/9/30?subseason=545898" class="game game_link_referrer">
+//              Get all hrefs with a class of "game game_link_referrer"
