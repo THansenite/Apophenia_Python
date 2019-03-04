@@ -20,15 +20,23 @@ Trying to find patterns in beer league chaos.
 ## Stats to Track
    * Shots For/Against per team
    * Historic Player/Goalie stats
-   * Historic Team Records - Team leaders, championships, win streaks
+   * Historic Team Records
+       * Team leaders
+       * Championships/Runner-ups/Regular Season Championships won
+       * Win/Loss streaks
    * Player History - Leagues, divisions, and teams played for
    * Players moving up/down divisions
    * Goalie records vs. individual teams
    * Team shots per period
    * Goalie save percentage per period
    * Spider chart for players and goalies on key stats
-   * Referee Stats - Liklihood of calling certain penalties, dangerous combinations, penalties against certain teams
+   * Referee Stats - 
+       * Liklihood of calling certain penalties
+       * Dangerous combinations (ref pairs who call a lot of penalties)
+       * Penalties against certain teams
    * Goalie nemesis
+       * What player or team scores the most on a certain golie
+   * Player pick position vs. actual performance
 
    * Pre/Post CIDL Team History (need to work out how to handle this)
       * Rookies
