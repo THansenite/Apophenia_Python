@@ -1,0 +1,335 @@
+{
+	"gameInfo": {
+		"id": 22772717,
+		"date": "Oct 07, 2018",
+		"time": "5:45 PM CDT",
+		"homeTeam": "Vicious Squirrels",
+		"awayTeam": "Benders"
+	},
+	"gameResult": {
+		"officials": ["Cody Verhuel", "Doug Lang"],
+		"goals": {
+			"homePeriodGoals": [1, 3, 0],
+			"homeTotalGoals": 4,
+			"awayPeriodGoals": [2, 3, 3],
+			"awayTotalGoals": 8
+		},
+		"shots": {
+			"homePeriodShots": [4, 6, 4],
+			"homeTotalShots": 14,
+			"awayPeriodShots": [6, 4, 7],
+			"awayTotalShots": 17
+		},
+		"powerPlays": {
+			"homePP": "0-0",
+			"homePIM": 4,
+			"awayPP": "1-2",
+			"awayPIM": 0
+		}
+	},
+	"firstPeriodSummary": {
+		"scoringDetail": {
+			"goal": {
+				"time": "6:51",
+				"team": "Benders",
+				"scorer": "Jason Wemer",
+				"advantage": "even strength",
+				"assists": ["Adam Waters"],
+				"updatedScore": "Sqrls 0 - Bendrs 1"
+			},
+			"goal": {
+				"time": "8:01",
+				"team": "Benders",
+				"scorer": "Philip Paschka",
+				"advantage": "even strength",
+				"assists": ["Chad Van Horn"],
+				"updatedScore": "Sqrls 0 - Bendrs 2"
+			},
+			"goal": {
+				"time": "9:14",
+				"team": "Vicious Squirrels",
+				"scorer": "Gentry Collins",
+				"advantage": "even strength",
+				"updatedScore": "Sqrls 1 - Bendrs 2"
+			}
+		},
+		"penaltyDetail": {
+			"penalty": {
+				"time": "19:05",
+				"team": "Vicious Squirrels",
+				"perp": "Greg Miller",
+				"servedBy": "Greg Miller",
+				"call": "Hooking",
+				"type": "Minor",
+				"duration": "2:00"
+			}
+		}
+	},
+	"secondPeriodSummary": {
+		"scoringDetail": {
+			"goal": {
+				"time": "2:18",
+				"team": "Vicious Squirrels",
+				"scorer": "Steve Delude",
+				"advantage": "even strength",
+				"updatedScore": "Sqrls 2 - Bendrs 2"
+			},
+			"goal": {
+				"time": "10:19",
+				"team": "Benders",
+				"scorer": "Tanner Robinson",
+				"advantage": "power play",
+				"assists": ["Stephen DeMarcky"],
+				"updatedScore": "Sqrls 2 - Bendrs 3"
+			},
+			"goal": {
+				"time": "12:24",
+				"team": "Benders",
+				"scorer": "Kent Forbes",
+				"advantage": "even strength",
+				"assists": ["Philip Paschka"],
+				"updatedScore": "Sqrls 2 - Bendrs 4"
+			},
+			"goal": {
+				"time": "13:11",
+				"team": "Vicious Squirrels",
+				"scorer": "Paul Knight",
+				"advantage": "even strength",
+				"updatedScore": "Sqrls 3 - Bendrs 4"
+			},
+			"goal": {
+				"time": "14:52",
+				"team": "Vicious Squirrels",
+				"scorer": "Paul Knight",
+				"advantage": "even strength",
+				"assists": ["Hannah Haas", "Reed Jensen"],
+				"updatedScore": "Sqrls 4 - Bendrs 4"
+			},
+			"goal": {
+				"time": "17:57",
+				"team": "Benders",
+				"scorer": "Chad Van Horn",
+				"advantage": "even strength",
+				"assists": ["Philip Paschka"],
+				"updatedScore": "Sqrls 4 - Bendrs 5"
+			}
+		},
+		"penaltyDetail": {
+			"penalty": {
+				"time": "9:14",
+				"team": "Vicious Squirrels",
+				"perp": "Steve Delude",
+				"servedBy": "Steve Delude",
+				"call": "Too Many Men on the Ice",
+				"type": "Minor",
+				"duration": "2:00"
+			}
+		}
+	},
+	"thirdPeriodSummary": {
+		"scoringDetail": {
+			"goal": {
+				"time": "9:58",
+				"team": "Benders",
+				"scorer": "Chad Van Horn",
+				"advantage": "even strength",
+				"assists": ["Aaron Harris"],
+				"updatedScore": "Sqrls 4 - Bendrs 6"
+			},
+			"goal": {
+				"time": "10:43",
+				"team": "Benders",
+				"scorer": "Aaron Harris",
+				"advantage": "even strength",
+				"assists": ["Philip Paschka"],
+				"updatedScore": "Sqrls 4 - Bendrs 7"
+			},
+			"goal": {
+				"time": "16:03",
+				"team": "Benders",
+				"scorer": "Chad Van Horn",
+				"advantage": "even strength",
+				"updatedScore": "Sqrls 4 - Bendrs 8"
+			}
+		}
+	},
+	"homeSkaterSummary": {
+		"skater": {
+			"number": 2,
+			"name": "Hannah Haas",
+			"stats": [0, 1, 0, 0]
+		},
+		"skater": {
+			"number": 15,
+			"name": "Greg Miller",
+			"stats": [0, 0, 2, 0]
+		},
+		"skater": {
+			"number": 65,
+			"name": "Gene Kelley",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 7,
+			"name": "Steve Delude",
+			"stats": [1, 0, 0, 0]
+		},
+		"skater": {
+			"number": 17,
+			"name": "Gentry Collins",
+			"stats": [1, 0, 0, 0]
+		},
+		"skater": {
+			"number": 88,
+			"name": "James Chung",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 4,
+			"name": "Grant Kimm",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 19,
+			"name": "Adam Swangel",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 13,
+			"name": "Reed Jensen",
+			"stats": [0, 1, 0, 0]
+		},
+		"skater": {
+			"number": 27,
+			"name": "Paul Knight",
+			"stats": [2, 0, 0, 0]
+		},
+		"skater": {
+			"number": 11,
+			"name": "Ryan Greening",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 9,
+			"name": "Matthew Ring",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 91,
+			"name": "Chris Kuhns",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 89,
+			"name": "Pat Scholer",
+			"stats": [0, 0, 0, 0]
+		},
+		"total": {
+			"goals": 4,
+			"assists": 2,
+			"PIM": 4
+		}
+	},
+	"awaySkaterSummary": {
+		"skater": {
+			"number": 66,
+			"name": "Allen DeHeer",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 55,
+			"name": "Stephen DeMarcky",
+			"stats": [0, 1, 0, 0]
+		},
+		"skater": {
+			"number": 71,
+			"name": "Nicholas Peterson",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 10,
+			"name": "Philip Paschka",
+			"stats": [1, 3, 0, 0]
+		},
+		"skater": {
+			"number": 45,
+			"name": "Adam Waters",
+			"stats": [0, 1, 0, 0]
+		},
+		"skater": {
+			"number": 5,
+			"name": "Mark Statz",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 19,
+			"name": "Zachary Brichetto",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 77,
+			"name": "Jason Wemer",
+			"stats": [1, 0, 0, 0]
+		},
+		"skater": {
+			"number": 46,
+			"name": "Jonathan Bodwell",
+			"stats": [0, 0, 0, 0]
+		},
+		"skater": {
+			"number": 68,
+			"name": "Tanner Robinson",
+			"stats": [1, 0, 0, 0]
+		},
+		"skater": {
+			"number": 18,
+			"name": "Kent Forbes",
+			"stats": [1, 0, 0, 0]
+		},
+		"skater": {
+			"number": 87,
+			"name": "Aaron Harris",
+			"stats": [1, 1, 0, 0]
+		},
+		"skater": {
+			"number": 81,
+			"name": "Chad Van Horn",
+			"stats": [3, 1, 0, 1]
+		},
+		"total": {
+			"goals": 8,
+			"assists": 7,
+			"PIM": 0
+		}
+	},
+	"homeGoalieSummary": {
+		"goalie": {
+			"number": 0,
+			"name": "Samantha Curiel",
+			"minutes": "58:00",
+			"shotsAgainst": 17,
+			"saves": 9,
+			"decision": "LOSS"
+		},
+		"total": {
+			"minutes": "58:00",
+			"shotsAgainst": 17,
+			"saves": 9
+		}
+	},
+	"awayGoalieSummary": {
+		"goalie": {
+			"number": 3,
+			"name": "Brian Higgins",
+			"minutes": "58:00",
+			"shotsAgainst": 14,
+			"saves": 10,
+			"decision": "WIN"
+		},
+		"total": {
+			"minutes": "58:00",
+			"shotsAgainst": 14,
+			"saves": 10
+		}
+	}
+}
