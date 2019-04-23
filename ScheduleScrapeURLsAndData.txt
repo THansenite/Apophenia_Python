@@ -1,0 +1,19 @@
+Entire 2018-19 League Schedule:
+https://dmyha.pucksystems2.com/schedule/league_instance/78964
+
+2017-18:
+https://dmyha.pucksystems2.com/schedule/league_instance/62688
+
+Printable Entire League Schedule:
+https://dmyha.pucksystems2.com/schedule/print/league_instance/78964?schedule_type=index&subseason=545898
+
+Data Present:
+Practice 		- bool
+Date 			- no time
+Visitor			- shows record if not played yet
+Visitor Score	- zero if practice
+Home			- shows record if not played yet
+Home Score 		- zero if practice
+Location 		- not used
+Status			- grab gameID from here
+**Table Row		- <tr> class lists 'completed' or 'scheduled'
